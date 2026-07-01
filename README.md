@@ -1,6 +1,6 @@
 <div align="center">
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=28&duration=3000&pause=1000&color=00FF41&center=true&vCenter=true&width=700&lines=Hi%2C+I'm+Lakshmi+Bharathy+Kumar+%F0%9F%91%8B;MS+Applied+Data+Intelligence+%40+SJSU;ML+%7C+Deep+Learning+%7C+AI+Systems;Building+intelligent+systems+from+data)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=24&duration=3000&pause=1000&color=00FF41&center=true&vCenter=true&width=700&lines=AI+Engineer+%7C+Data+Scientist;LangGraph+%7C+MCP+%7C+RAG+%7C+Agentic+Systems;Bayesian+Inference+%7C+Causal+Inference;Building+things+that+stay+working)](https://git.io/typing-svg)
 
 <img src="https://komarev.com/ghpvc/?username=Lakshmibharathy11&style=flat-square&color=00FF41&label=PROFILE+VIEWS" />
 
@@ -8,56 +8,52 @@
 
 ---
 
-```python
-class LakshmiBharathy:
-    def __init__(self):
-        self.name       = "Lakshmi Bharathy Kumar"
-        self.degree     = "M.S. Applied Data Intelligence — SJSU (May 2026)"
-        self.focus      = ["Machine Learning", "Deep Learning", "GenAI", "MLOps"]
-        self.currently  = "Graduate Thesis: Eye-tracking → Autonomous Control (ML/DL)"
-        self.looking_for = "Full-time roles in Data Science / ML Engineering"
-
-    def say_hi(self):
-        print("I turn raw data into decisions. Let's build something.")
-```
+**AI Engineer with strong Data Science foundations.**
+M.S. Applied Data Intelligence — San Jose State University (May 2026).
+Building production-grade LLM pipelines, agentic systems, and end-to-end ML workflows — from Bayesian causal inference through to deployed, observable AI systems.
+Seeking AI Engineering and Data Science roles in the Bay Area.
+Authorized to work in the U.S. without sponsorship.
 
 ---
 
 ## ⚡ Tech Stack
 
-**Core**
+**Languages**
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white)
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white)
 
-**ML / AI**
+**LLMs & Agentic AI**
+
+![LangGraph](https://img.shields.io/badge/LangGraph-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white)
+![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white)
+![MCP](https://img.shields.io/badge/MCP-000000?style=for-the-badge&logoColor=white)
+![Pydantic](https://img.shields.io/badge/Pydantic-E92063?style=for-the-badge&logo=pydantic&logoColor=white)
+![Ragas](https://img.shields.io/badge/Ragas-4B0082?style=for-the-badge&logoColor=white)
+![HuggingFace](https://img.shields.io/badge/HuggingFace-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black)
+
+**ML & Deep Learning**
 
 ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
-![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
-![HuggingFace](https://img.shields.io/badge/HuggingFace-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black)
-![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white)
-![scikit--learn](https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
-![CoreML](https://img.shields.io/badge/CoreML-000000?style=for-the-badge&logo=apple&logoColor=white)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
+![XGBoost](https://img.shields.io/badge/XGBoost-337AB7?style=for-the-badge&logoColor=white)
 ![ONNX](https://img.shields.io/badge/ONNX-005CED?style=for-the-badge&logo=onnx&logoColor=white)
 
-**Data & MLOps**
+**Data Engineering & MLOps**
 
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![Kafka](https://img.shields.io/badge/Apache_Kafka-231F20?style=for-the-badge&logo=apache-kafka&logoColor=white)
 ![Airflow](https://img.shields.io/badge/Apache_Airflow-017CEE?style=for-the-badge&logo=apache-airflow&logoColor=white)
 ![Snowflake](https://img.shields.io/badge/Snowflake-29B5E8?style=for-the-badge&logo=snowflake&logoColor=white)
 ![dbt](https://img.shields.io/badge/dbt-FF694B?style=for-the-badge&logo=dbt&logoColor=white)
+![Kafka](https://img.shields.io/badge/Apache_Kafka-231F20?style=for-the-badge&logo=apache-kafka&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
 ![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
-![Neo4j](https://img.shields.io/badge/Neo4j-008CC1?style=for-the-badge&logo=neo4j&logoColor=white)
 
-**Visualization**
+**Visualization & BI**
 
-![Tableau](https://img.shields.io/badge/Tableau-E97627?style=for-the-badge&logo=tableau&logoColor=white)
 ![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=power-bi&logoColor=black)
+![Looker Studio](https://img.shields.io/badge/Looker_Studio-4285F4?style=for-the-badge&logo=google&logoColor=white)
+![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)
 
 ---
 
@@ -65,16 +61,18 @@ class LakshmiBharathy:
 
 | Project | Stack | Highlight |
 |---|---|---|
-| [**Graduate Thesis — Eye-Tracking for Autonomous Control**](#) | PyTorch · CV | ML/DL models predicting directional intent; LOUO cross-user validation |
-| [**xLSTM CBCT Dose Prediction**](https://github.com/Lakshmibharathy11/xLSTM-CBCT-Dose-Prediction-Model---Proton-Therapy-Research) | xLSTM · PyTorch | < 3% error vs Monte Carlo; physics-aware beam energy conditioning |
-| [**Blind Super-Resolution GAN**](https://github.com/Lakshmibharathy11/Hybrid_Super_Resolution_Architecture) | PyTorch · GANs | Hybrid CNN-Transformer SR pipeline on DIV2K; robust to real-world degradations |
-| [**Kafka Multi-Agent Pipeline**](https://github.com/Lakshmibharathy11/Kafka-Multi-Agent-System---LangChain-Kafka) | LangChain · Kafka | 3-agent (Planner → Writer → Reviewer) async workflow via Kafka topics |
-| [**Kayak-Style Distributed Travel System**](https://github.com/Lakshmibharathy11/Kayak_style_full_stack_development) | FastAPI · Kafka · AWS | Microservices + LLM AI concierge for deal scoring & travel recommendations |
-| [**AI Memory System**](https://github.com/Lakshmibharathy11/AI-Memory-System---FastAPI-MongoDB-Ollama-LLM) | FastAPI · MongoDB · Ollama | Short-term + episodic memory via cosine-similarity vector search for RAG |
-| [**Real-Time Safety Classifier**](https://github.com/Lakshmibharathy11/Image_classification) | MobileNetV2 · Kafka | 83.5% acc · 0.92 ROC-AUC · 300ms CPU latency on 9M+ image dataset |
-| [**Tesla Stock Forecasting**](https://github.com/Lakshmibharathy11/Tesla_stock_sentiment_analysis) | Airflow · Snowflake · dbt | R² = 0.91; ELT pipeline over 50k+ social media records |
-| [**Smart Meal Recommender**](https://github.com/Lakshmibharathy11/plate-planner-api-main) | CoreML · GPT · Neo4j | On-device food detection + GPT recipe gen + graph-based substitutions |
-| [**Real-Time Salary Predictor**](https://github.com/Lakshmibharathy11/Salary-Prediction) | Python · Power BI | R² = 0.62; multi-year Stack Overflow data + interactive dashboard |
+| [**AI Support Ticket Triage Agent**](https://github.com/Lakshmibharathy11) | LangGraph · FAISS · Groq · Ragas | 8-node agentic pipeline · faithfulness 0.81 · $0.00139/ticket · HITL interrupt |
+| [**MCP Server — Model Context Protocol**](https://github.com/Lakshmibharathy11) | FastMCP · AsyncIO · httpx | Full stdio JSON-RPC lifecycle · 4 callable tools · verified with Claude Desktop |
+| [**LLM Observability & Evaluation Engine**](https://github.com/Lakshmibharathy11) | Ragas · LangSmith · MLflow · FastAPI | Faithfulness tracking across releases · 18% API cost reduction |
+| [**Marketing Mix Modeling — Budget Allocator**](https://github.com/Lakshmibharathy11/Marketing-Mix-Modeling-for-Multichannel-Budget-Allocation) | Google Meridian · MCMC · Looker Studio | 156 weeks geo-level data · VIF-informed Bayesian priors · +0.5% lift |
+| [**Incrementality & Uplift Modeling**](https://github.com/Lakshmibharathy11) | scikit-uplift · XGBoost | 1M+ users · naive targeting wasted ~22% of spend · +14% incremental conversions |
+| [**Customer Lifetime Value & Churn Risk**](https://github.com/Lakshmibharathy11) | XGBoost · SHAP · K-Means | ROC-AUC 0.84 · top 18% customers = 61% of revenue · At-Risk CLV 3.2x higher |
+| [**Tesla Stock Sentiment Pipeline**](https://github.com/Lakshmibharathy11/Tesla_stock_sentiment_analysis) | Airflow · Snowflake · dbt · VADER | Group project (DATA226, SJSU) · R² = 0.916 · personal contribution: ELT + SQL regression |
+| [**Real-Time Salary Predictor**](https://github.com/Lakshmibharathy11/Salary-Prediction) | scikit-learn · Power BI | R² = 0.62 · 90K+ responses · 49% missing salary handled |
+| [**Multimodal RAG System for PDF Q&A**](https://github.com/Lakshmibharathy11) | ChromaDB · CLIP · MiniLM · Qwen 2.5 | 15/15 benchmark questions · 4-bit quantized · no cloud dependency |
+| [**Image Restoration Model for NPU**](https://github.com/Lakshmibharathy11) | PyTorch · ONNX · Quantization | 1.2M params · 21 dB PSNR · fully on-device via MXQ quantization |
+| [**Kafka Multi-Agent Pipeline**](https://github.com/Lakshmibharathy11/Kafka-Multi-Agent-System---LangChain-Kafka) | LangChain · Kafka | 3-agent async workflow (Planner → Writer → Reviewer) via Kafka topics |
+| [**Graduate Thesis — Eye-Tracking Gaze Classification**](https://github.com/Lakshmibharathy11) | PyTorch · scikit-learn · ResNet18 | SVM/GBDT 0.94 cross-user · 12pp above published baseline · manuscript in preparation |
 
 ---
 
@@ -99,7 +97,7 @@ class LakshmiBharathy:
 ## 🎓 Education
 
 **M.S. Applied Data Intelligence** — San Jose State University *(May 2026)*
-> Machine Learning · Deep Learning · GenAI · Big Data Analytics · Database Systems
+> Agentic AI · Machine Learning · Deep Learning · Bayesian Inference · Big Data Analytics
 
 **B.E. Electronics & Communication** — Saranathan College of Engineering, India *(May 2014)*
 
@@ -107,23 +105,23 @@ class LakshmiBharathy:
 
 ## 💼 Experience
 
-**SEO Specialist** — Repunext, Chennai *(Jun 2020 – Dec 2022)*
-> Cross-functional analytics work; 25% organic traffic uplift through data-informed content strategy; stakeholder reporting via Google Analytics
+**Digital Marketing Specialist** — RepuNEXT, Chennai *(Jun 2021 – Dec 2022)*
+> Analytics and automated reporting for clients across industries — Google Analytics, SEMrush; 25% organic traffic uplift; built reporting pipelines for stakeholder review
 
 ---
 
-## 📬 Connect
+## 🔗 Portfolio & Contact
 
 <div align="center">
 
-[![GitHub](https://img.shields.io/badge/GitHub-Lakshmibharathy11-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Lakshmibharathy11)
+[![Portfolio](https://img.shields.io/badge/Portfolio-lakshmibharathy11.github.io-00FF41?style=for-the-badge&logoColor=white)](https://lakshmibharathy11.github.io)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-lakshmi--bharathy--kumar-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/lakshmi-bharathy-kumar/)
-[![Email](https://img.shields.io/badge/Email-lakshmibharathyk%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:lakshmibharathyk@gmail.com)
+[![GitHub](https://img.shields.io/badge/GitHub-Lakshmibharathy11-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Lakshmibharathy11)
 
 </div>
 
 ---
 
 <div align="center">
-<sub>⚡ Building at the intersection of data, ML, and intelligent systems</sub>
+<sub>⚡ Building at the intersection of agentic AI and applied data science</sub>
 </div>
