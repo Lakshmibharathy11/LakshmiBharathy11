@@ -8,11 +8,10 @@
 
 ---
 
-**AI Engineer with strong Data Science foundations.**
-M.S. Applied Data Intelligence — San Jose State University (May 2026).
-Building production-grade LLM pipelines, agentic systems, and end-to-end ML workflows — from Bayesian causal inference through to deployed, observable AI systems.
-Seeking AI Engineering and Data Science roles in the Bay Area.
-Authorized to work in the U.S. without sponsorship.
+**AI Engineer with strong Data Science foundations.**<br>
+M.S. Applied Data Intelligence — San Jose State University (May 2026).<br>
+Building production-grade LLM pipelines, agentic systems, and end-to-end ML workflows — from Bayesian causal inference through to deployed, observable AI systems.<br>
+Seeking AI Engineering and Data Science roles in the Bay Area · Authorized to work in the U.S. without sponsorship.
 
 ---
 
@@ -86,12 +85,6 @@ Authorized to work in the U.S. without sponsorship.
 
 </div>
 
-<div align="center">
-
-[![GitHub Streak](https://streak-stats.demolab.com?user=Lakshmibharathy11&theme=dark&hide_border=true&background=0d1117&ring=00FF41&fire=00FF41&currStreakLabel=00FF41)](https://git.io/streak-stats)
-
-</div>
-
 ---
 
 ## 🎓 Education
@@ -110,18 +103,18 @@ Authorized to work in the U.S. without sponsorship.
 
 ---
 
-## 🔗 Portfolio & Contact
+## 📬 Contact
 
 <div align="center">
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-lakshmibharathy11.github.io-00FF41?style=for-the-badge&logoColor=white)](https://lakshmibharathy11.github.io)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-lakshmi--bharathy--kumar-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/lakshmi-bharathy-kumar/)
-[![GitHub](https://img.shields.io/badge/GitHub-Lakshmibharathy11-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Lakshmibharathy11)
+[![Portfolio](https://img.shields.io/badge/Portfolio-Visit_Site-00FF41?style=for-the-badge&logoColor=white)](https://lakshmibharathy11.github.io)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/lakshmi-bharathy-kumar/)
+[![Email](https://img.shields.io/badge/Email-Get_in_Touch-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:lakshmibharathyk@gmail.com)
 
 </div>
 
 ---
 
 <div align="center">
-<sub>⚡ Building at the intersection of agentic AI and applied data science</sub>
+<sub>⚡ Bay Area, CA · Open to work · <a href="https://lakshmibharathy11.github.io">lakshmibharathy11.github.io</a></sub>
 </div>
