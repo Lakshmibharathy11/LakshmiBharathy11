@@ -60,18 +60,20 @@ Seeking AI Engineering and Data Science roles in the Bay Area · Authorized to w
 
 | Project | Stack | Highlight |
 |---|---|---|
-| [**AI Support Ticket Triage Agent**](https://github.com/Lakshmibharathy11) | LangGraph · FAISS · Groq · Ragas | 8-node agentic pipeline · faithfulness 0.81 · $0.00139/ticket · HITL interrupt |
-| [**MCP Server — Model Context Protocol**](https://github.com/Lakshmibharathy11) | FastMCP · AsyncIO · httpx | Full stdio JSON-RPC lifecycle · 4 callable tools · verified with Claude Desktop |
+| [**AI Support Ticket Triage Agent**](https://github.com/Lakshmibharathy11/AI-Customer-Support-Triage-Agent) | LangGraph · FAISS · Groq · Ragas | 8-node agentic pipeline · faithfulness 0.81 · $0.00139/ticket · HITL interrupt |
+| [**MCP Server — Model Context Protocol**](https://github.com/Lakshmibharathy11/meals-mcp-server) | FastMCP · AsyncIO · httpx | Full stdio JSON-RPC lifecycle · 4 callable tools · verified with Claude Desktop |
 | [**LLM Observability & Evaluation Engine**](https://github.com/Lakshmibharathy11) | Ragas · LangSmith · MLflow · FastAPI | Faithfulness tracking across releases · 18% API cost reduction |
 | [**Marketing Mix Modeling — Budget Allocator**](https://github.com/Lakshmibharathy11/Marketing-Mix-Modeling-for-Multichannel-Budget-Allocation) | Google Meridian · MCMC · Looker Studio | 156 weeks geo-level data · VIF-informed Bayesian priors · +0.5% lift |
 | [**Incrementality & Uplift Modeling**](https://github.com/Lakshmibharathy11) | scikit-uplift · XGBoost | 1M+ users · naive targeting wasted ~22% of spend · +14% incremental conversions |
 | [**Customer Lifetime Value & Churn Risk**](https://github.com/Lakshmibharathy11) | XGBoost · SHAP · K-Means | ROC-AUC 0.84 · top 18% customers = 61% of revenue · At-Risk CLV 3.2x higher |
+| [**Price Elasticity & SKU Pricing Strategy**](https://github.com/Lakshmibharathy11/Price-Elasticity) | Statsmodels · Pandas · Power BI | 131,706 transactions · 10 significant SKUs · top elasticity -1.39 |
 | [**Tesla Stock Sentiment Pipeline**](https://github.com/Lakshmibharathy11/Tesla_stock_sentiment_analysis) | Airflow · Snowflake · dbt · VADER | Group project (DATA226, SJSU) · R² = 0.916 · personal contribution: ELT + SQL regression |
 | [**Real-Time Salary Predictor**](https://github.com/Lakshmibharathy11/Salary-Prediction) | scikit-learn · Power BI | R² = 0.62 · 90K+ responses · 49% missing salary handled |
+| [**Automated Job Monitoring & Alert Dashboard**](https://github.com/Lakshmibharathy11/job-search-assistant) | Python · GitHub Actions · SQLite · Streamlit | Zero-cost automated scraping · real-time alerts on new matches |
+| [**Image Restoration / Super Resolution**](https://github.com/Lakshmibharathy11/Hybrid_Super_Resolution_Architecture) | PyTorch · ONNX · Quantization | Hybrid CNN-Transformer SR pipeline · robust to real-world degradations |
+| [**Graduate Thesis — Eye-Tracking Gaze Classification**](https://github.com/Lakshmibharathy11/Graduate_Thesis) | PyTorch · scikit-learn · ResNet18 | SVM/GBDT 0.94 cross-user · 12pp above published baseline · manuscript in preparation |
 | [**Multimodal RAG System for PDF Q&A**](https://github.com/Lakshmibharathy11) | ChromaDB · CLIP · MiniLM · Qwen 2.5 | 15/15 benchmark questions · 4-bit quantized · no cloud dependency |
-| [**Image Restoration Model for NPU**](https://github.com/Lakshmibharathy11) | PyTorch · ONNX · Quantization | 1.2M params · 21 dB PSNR · fully on-device via MXQ quantization |
 | [**Kafka Multi-Agent Pipeline**](https://github.com/Lakshmibharathy11/Kafka-Multi-Agent-System---LangChain-Kafka) | LangChain · Kafka | 3-agent async workflow (Planner → Writer → Reviewer) via Kafka topics |
-| [**Graduate Thesis — Eye-Tracking Gaze Classification**](https://github.com/Lakshmibharathy11) | PyTorch · scikit-learn · ResNet18 | SVM/GBDT 0.94 cross-user · 12pp above published baseline · manuscript in preparation |
 
 ---
 
