@@ -5,7 +5,7 @@
 **Data Scientist** — Turning Complex Data into Business Decisions
 
 M.S. Applied Data Intelligence, San José State University (May 2026) · 2 years marketing analytics experience
-Bay Area, CA · Open to work · Authorized to work in the U.S. without sponsorship
+· Open to work · Authorized to work in the U.S. without sponsorship
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=googlechrome&logoColor=white)](https://lakshmibharathy11.github.io)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/lakshmi-bharathy-kumar/)
@@ -17,38 +17,50 @@ Bay Area, CA · Open to work · Authorized to work in the U.S. without sponsorsh
 
 ## About
 
-I turn complex, messy data into decisions businesses can act on — building statistically grounded models (Bayesian marketing mix modeling, uplift and churn analysis, experimentation) and reaching for LLM tooling (RAG, LangGraph agents, LLM evaluation) when it's the right tool for the problem, not as a separate track.
+I take messy, real-world data and turn it into decisions a business can act on. That means three things, in order: understanding the data well enough to trust it, building the right model for the question (statistical, causal, ML, or LLM-based), and making sure it actually runs somewhere — not just in a notebook.
 
-Before graduate school, I spent two years at RepuNEXT doing marketing analytics: diagnosing funnel drop-off and rebuilding SEO targeting, which grew organic traffic 25%. That's the throughline in everything below — using data to change outcomes, not just describe them.
+Concretely: I've built Bayesian models that told a marketing team where to move $4.8M in ad spend, a churn model that identified which 1% of customers to protect to save 25% of projected revenue, and a full agentic AI system with a human-in-the-loop safety gate before anything reaches a customer. I've also shipped that work as containerized APIs and scheduled pipelines, not just analysis — because a model that only runs on my laptop isn't useful to a company yet.
+
+Before graduate school, I spent two years at RepuNEXT doing marketing analytics — diagnosing funnel drop-off and rebuilding SEO targeting, which grew organic traffic 25%. That's the throughline in everything below: I don't build models to build models. I build them to change an outcome.
 
 ---
 
-## Core Data Science Work
+## Core Data Science & Modeling
 
 *Statistics, causal inference, and applied ML — the primary focus of my target roles.*
 
-| Project | Stack | Result |
+| Project | What it does | Result |
 |---|---|---|
-| **[Marketing Mix Modeling — Budget Allocator](https://github.com/Lakshmibharathy11/Marketing-Mix-Modeling-for-Multichannel-Budget-Allocation)** | Google Meridian · MCMC · Looker Studio | 156 weeks geo-level data · VIF-informed Bayesian priors · **$4.8M** recommended reallocation, +0.5% lift |
-| **[Causal Uplift & Incrementality Modeling](https://github.com/Lakshmibharathy11/Causal-Uplift-Budget-Optimizer)** | XGBoost · scikit-uplift · Causal Inference | 1M+ users · naive targeting wastes ~22% of spend · **+14%** incremental conversions at equal budget |
-| **Customer Lifetime Value & Churn Risk** | XGBoost · SHAP · K-Means | 96K+ orders · **ROC-AUC 0.84** · top 18% of customers drive 61% of revenue |
-| **Corporate Bankruptcy Early Warning System** | XGBoost · Statsmodels · Temporal CV | 3,722 companies, 47 ratios · **ROC-AUC 0.84**, beats Altman Z-Score (0.71) |
-| **Price Elasticity & SKU Pricing Strategy** | Statsmodels · Pandas · Power BI | 131,706 transactions, 5,242 SKUs · 10 significant SKUs (p<0.05) |
-| **[Gaze-Based Intent Classification](https://github.com/Lakshmibharathy11/Graduate_Thesis)** *(M.S. Thesis)* | PyTorch · scikit-learn · ResNet18 | **0.94** cross-user accuracy, 12pp above published baseline · manuscript in preparation |
+| **[Marketing Mix Modeling — Budget Allocator](https://github.com/Lakshmibharathy11/Marketing-Mix-Modeling-for-Multichannel-Budget-Allocation)** | Bayesian model (Google Meridian) recommending how to split ad budget across 5 channels, using 156 weeks of geo-level data | **$4.8M** recommended reallocation, +0.5% projected conversion lift |
+| **[Causal Uplift & Incrementality Modeling](https://github.com/Lakshmibharathy11/Causal-Uplift-Budget-Optimizer)** | Identifies which of 1M+ users an ad campaign actually changes the mind of, vs. who would've bought anyway | Naive targeting wastes ~22% of spend · **+14%** incremental conversions at equal budget |
+| **[Retention Priority Dashboard: RFM, CLV & Churn Risk](https://github.com/Lakshmibharathy11/Retention-Priority-Dashboard-RFM-CLV-and-Churn-Risk)** | Combines customer value and churn risk into one ranked "who's worth saving" list, not just a churn score | Top 50 customers (<1% of base) represent **£9.26M**, 24.7% of total customer value |
+| **[Gaze-Based Intent Classification](https://github.com/Lakshmibharathy11/Graduate_Thesis)** *(M.S. Thesis)* | Predicts where a person is looking from eye-tracking sensor data, for hands-free assistive device control | **0.94** cross-user accuracy, 12pp above published baseline · manuscript in preparation |
 
 ---
 
 ## Applied AI & Data Engineering
 
-*RAG systems, agentic pipelines, and ETL — supporting skills I bring alongside the core DS work above.*
+*Getting data from raw source to model-ready — pipelines, orchestration, and applied ML on operational data.*
 
-| Project | Stack | Result |
+| Project | What it does | Result |
 |---|---|---|
-| **[AI Support Ticket Triage Agent](https://github.com/Lakshmibharathy11/AI-Customer-Support-Triage-Agent)** | LangGraph · FAISS · Groq · Ragas-style eval | 8-node agentic pipeline · faithfulness 0.81 · $0.00139/ticket · real HITL interrupt |
-| **[Tesla Stock Sentiment Pipeline](https://github.com/Lakshmibharathy11/Tesla_stock_sentiment_analysis)** *(group project, DATA226)* | Airflow · Snowflake · dbt · VADER | R² = 0.916 · my contributions: sentiment scoring, ELT, SQL regression |
-| **[MCP Server](https://github.com/Lakshmibharathy11/meals-mcp-server)** | FastMCP · AsyncIO · httpx | Full stdio JSON-RPC lifecycle · 4 callable tools · verified with Claude Desktop |
-| **[Kafka Multi-Agent Pipeline](https://github.com/Lakshmibharathy11/Kafka-Multi-Agent-System---LangChain-Kafka)** | LangChain · Kafka | 3-agent async workflow (Planner → Writer → Reviewer) |
-| **[Image Restoration / Super Resolution](https://github.com/Lakshmibharathy11/Hybrid_Super_Resolution_Architecture)** | PyTorch · ONNX · Quantization | Hybrid CNN-Transformer SR, robust to real-world degradation |
+| **[Tesla Stock Sentiment Pipeline](https://github.com/Lakshmibharathy11/Tesla_stock_sentiment_analysis)** *(group project, DATA226)* | End-to-end ELT pipeline combining stock price data with tweet sentiment | R² = 0.916 · my contributions: sentiment scoring, Snowflake ELT, SQL regression, Airflow, dbt |
+| **[Law Enforcement Response Analytics](https://github.com/Lakshmibharathy11/Law_Enforcement_Analytics)** | Automated ETL pipeline ranking police districts by call response time, orchestrated daily | Airflow + dbt + Snowflake, fully containerized, with automated data quality tests |
+| **[Developer Salary Prediction](https://github.com/Lakshmibharathy11/Salary-Prediction)** | Predicts developer compensation from skills, role, and demographics using 5 years of Stack Overflow survey data | R² = 0.62 · 90K+ responses · interactive Power BI prediction dashboard |
+
+---
+
+## Production Engineering & Applied Systems
+
+*Shipping models and AI systems as real, running software — APIs, containers, and cloud deployment.*
+
+| Project | What it does | Result |
+|---|---|---|
+| **[AI Support Ticket Triage Agent](https://github.com/Lakshmibharathy11/AI-Customer-Support-Triage-Agent)** | 8-node LangGraph agent that classifies, retrieves, drafts, and self-evaluates support responses, with a human approval gate before anything risky ships | Faithfulness 0.81 · $0.00139/ticket · real HITL interrupt, not simulated |
+| **[Plate Planner API](https://github.com/Lakshmibharathy11/plate-planner-api-main)** | FastAPI service backed by a Neo4j graph database and semantic embeddings, recommending recipes and ingredient substitutions | Fully Dockerized · FAISS + SentenceTransformers for semantic matching |
+| **[Multimodal Multi-Agent Image Editing Pipeline](https://github.com/Lakshmibharathy11/Multimodal-RAG-System-for-PDF-Q-A)** | 4-agent LangGraph workflow (vision understanding → prompt refinement → generation → critique) that edits images and retries when its own evaluation isn't satisfied | 12/12 runs completed · avg rubric score 4.03/5 · CLIP image-similarity 0.938 |
+| **[Bay Area Job Monitor](https://github.com/Lakshmibharathy11/job-search-assistant)** | Automated pipeline scanning startup job boards for relevant new-grad roles, with scam detection and dedup logic | Diagnosed and fixed a scheduling bug causing ~500 wasted runs/week, cut to 4/week · GitHub Actions CI |
+| **[Distributed User Management System](https://github.com/Lakshmibharathy11/Distributed-User-Management-System---Node.js-React-MySQL-Docker-AWS-ECS)** | Full-stack CRUD web app with API validation, deployed as a containerized service | Node.js · React · MySQL · Docker · AWS ECS |
 
 ---
 
@@ -75,6 +87,12 @@ Before graduate school, I spent two years at RepuNEXT doing marketing analytics:
 ![dbt](https://img.shields.io/badge/dbt-FF694B?style=flat-square&logo=dbt&logoColor=white)
 ![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonaws&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+
+**Production & APIs**
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
+![Neo4j](https://img.shields.io/badge/Neo4j-008CC1?style=flat-square&logo=neo4j&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white)
+![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
 
 **Applied AI Tooling**
 ![LangGraph](https://img.shields.io/badge/LangGraph-1C3C3C?style=flat-square)
