@@ -2,14 +2,16 @@
 
 # Lakshmi Bharathy Kumar
 
-**Data Scientist** — Turning Complex Data into Business Decisions
+**Data & Product Analyst · Associate Data Scientist**
 
-M.S. Applied Data Intelligence, San José State University (May 2026) · 2 years marketing analytics experience
-· Open to work · Authorized to work in the U.S. without sponsorship
+Turning User Data into Business ROI · A/B Testing | Data & Product Analytics | Causal ML
+
+M.S. Applied Data Intelligence, San José State University (May 2026) · San Jose, CA · Bay Area & Remote
+Authorized to work in the U.S. without sponsorship
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=googlechrome&logoColor=white)](https://lakshmibharathy11.github.io)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/lakshmi-bharathy-kumar/)
-[![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:lakshmibharathyk@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/lakshmibharathy-kumar)
+[![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:lakshmibharathy.kumar@gmail.com)
 
 </div>
 
@@ -17,113 +19,115 @@ M.S. Applied Data Intelligence, San José State University (May 2026) · 2 years
 
 ## About
 
-I take messy, real-world data and turn it into decisions a business can act on. That means three things, in order: understanding the data well enough to trust it, building the right model for the question (statistical, causal, ML, or LLM-based), and making sure it actually runs somewhere — not just in a notebook.
+I use SQL, Python, experimentation, and causal ML to answer the question behind the dashboard: **what actually drove the result, and what should we do next?**
 
-Concretely: I've built Bayesian models that told a marketing team where to move $4.8M in ad spend, a churn model that identified which 1% of customers to protect to save 25% of projected revenue, and a full agentic AI system with a human-in-the-loop safety gate before anything reaches a customer. I've also shipped that work as containerized APIs and scheduled pipelines, not just analysis — because a model that only runs on my laptop isn't useful to a company yet.
-
-Before graduate school, I spent two years at RepuNEXT doing marketing analytics — diagnosing funnel drop-off and rebuilding SEO targeting, which grew organic traffic 25%. That's the throughline in everything below: I don't build models to build models. I build them to change an outcome.
+My foundation is two years of hands-on marketing and web analytics for client businesses, where I diagnosed funnel drop-off, defined KPIs, and reported results to founders and managing directors. My M.S. in Applied Data Intelligence added the rigor to test changes properly, measure true incrementality, and prioritize the customers worth keeping. I also build the pipelines and tools that make that analysis repeatable.
 
 ---
 
-## Core Data Science & Modeling
+## Featured Work
 
-*Statistics, causal inference, and applied ML — the primary focus of my target roles.*
+*Projects that answer real business questions: where to spend, who to target, which customers to keep, and what changed this week and why.*
 
-| Project | What it does | Result |
+| Project | Business question | Result |
 |---|---|---|
-| **[Marketing Mix Modeling — Budget Allocator](https://github.com/Lakshmibharathy11/Marketing-Mix-Modeling-for-Multichannel-Budget-Allocation)** | Bayesian model (Google Meridian) recommending how to split ad budget across 5 channels, using 156 weeks of geo-level data | **$4.8M** recommended reallocation, +0.5% projected conversion lift |
-| **[Causal Uplift & Incrementality Modeling](https://github.com/Lakshmibharathy11/Causal-Uplift-Budget-Optimizer)** | Identifies which of 1M+ users an ad campaign actually changes the mind of, vs. who would've bought anyway | Naive targeting wastes ~22% of spend · **+14%** incremental conversions at equal budget |
-| **[Retention Priority Dashboard: RFM, CLV & Churn Risk](https://github.com/Lakshmibharathy11/Retention-Priority-Dashboard-RFM-CLV-and-Churn-Risk)** | Combines customer value and churn risk into one ranked "who's worth saving" list, not just a churn score | Top 50 customers (<1% of base) represent **£9.26M**, 24.7% of total customer value |
-| **[Gaze-Based Intent Classification](https://github.com/Lakshmibharathy11/Graduate_Thesis)** *(M.S. Thesis)* | Predicts where a person is looking from eye-tracking sensor data, for hands-free assistive device control | **0.94** cross-user accuracy, 12pp above published baseline · manuscript in preparation |
+| **[Weekly Business Review (WBR) AI Agent](https://github.com/Lakshmibharathy11/team-s04-wbr-agent-mirror)** 🏆 *AWS Agentic AI Hackathon Finalist* | Why did this week's e-commerce metrics move? An analyst agent investigates metric changes with SQL query tools and robust z-score anomaly detection; a verifier agent checks every claim before the memo reaches a reader | **Top 5 of 12** teams, presented live at AWS Community Day Bay Area · 283 automated tests · 13/13 queries match between DuckDB and AWS Athena |
+| **[Causal Uplift & Incrementality Platform](https://github.com/Lakshmibharathy11/Causal-Uplift-Budget-Optimizer)** | Which users convert *because* of an ad, versus users who would have converted anyway? Uplift models on the Criteo dataset (13.9M users), deployed as a Streamlit tool on AWS EC2 | **87.8%** of incremental conversions captured by targeting the top 30% of users · 13.2% of users identified as persuadables · Qini 0.726 |
+| **[Bayesian Marketing Mix Model & Budget Optimizer](https://github.com/Lakshmibharathy11/Marketing-Mix-Modeling-for-Multichannel-Budget-Allocation)** | Which channels actually drive revenue, and how should a fixed budget be split? Built with Google Meridian on its simulated demo dataset (156 weeks, 5 paid channels) | **$7.7M** reallocated at the same $219.5M budget · **+0.35%** projected media-driven revenue · 4.4% MAPE |
+| **[Customer Retention Priority Engine: RFM, CLV & Churn](https://github.com/Lakshmibharathy11/Retention-Priority-Dashboard-RFM-CLV-and-Churn-Risk)** | Which customers are worth the retention budget? Combines customer value and churn risk into one ranked list (Online Retail II, ~5,878 customers) | Top 50 customers (<1% of base) hold **£9.26M**, 24.7% of projected value · found and removed data leakage before finalizing the churn model |
 
 ---
 
-## Applied AI & Data Engineering
+## Graduate Research
 
-*Getting data from raw source to model-ready — pipelines, orchestration, and applied ML on operational data.*
-
-| Project | What it does | Result |
+| Project | What it does | Status |
 |---|---|---|
-| **[Tesla Stock Sentiment Pipeline](https://github.com/Lakshmibharathy11/Tesla_stock_sentiment_analysis)** *(group project, DATA226)* | End-to-end ELT pipeline combining stock price data with tweet sentiment | R² = 0.916 · my contributions: sentiment scoring, Snowflake ELT, SQL regression, Airflow, dbt |
-| **[Law Enforcement Response Analytics](https://github.com/Lakshmibharathy11/Law_Enforcement_Analytics)** | Automated ETL pipeline ranking police districts by call response time, orchestrated daily | Airflow + dbt + Snowflake, fully containerized, with automated data quality tests |
-| **[Developer Salary Prediction](https://github.com/Lakshmibharathy11/Salary-Prediction)** | Predicts developer compensation from skills, role, and demographics using 5 years of Stack Overflow survey data | R² = 0.62 · 90K+ responses · interactive Power BI prediction dashboard |
+| **[Eye-Tracking Based Direction Control Using Machine Learning Technique](https://github.com/Lakshmibharathy11/Graduate_Thesis)** *(M.S. Thesis)* | Classifies gaze direction from lab-collected eye-tracking data for hands-free assistive control, tested on both familiar and new users | Published on SJSU ScholarWorks · [DOI 10.31979/etd.h3rd-h8n2](https://doi.org/10.31979/etd.h3rd-h8n2) · 1-minute overview video in the repo |
 
 ---
 
-## Production Engineering & Applied Systems
-
-*Shipping models and AI systems as real, running software — APIs, containers, and cloud deployment.*
+## Data Pipelines & Statistical Modeling
 
 | Project | What it does | Result |
 |---|---|---|
-| **[AI Support Ticket Triage Agent](https://github.com/Lakshmibharathy11/AI-Customer-Support-Triage-Agent)** | 8-node LangGraph agent that classifies, retrieves, drafts, and self-evaluates support responses, with a human approval gate before anything risky ships | Faithfulness 0.81 · $0.00139/ticket · real HITL interrupt, not simulated |
-| **[Plate Planner API](https://github.com/Lakshmibharathy11/plate-planner-api-main)** | FastAPI service backed by a Neo4j graph database and semantic embeddings, recommending recipes and ingredient substitutions | Fully Dockerized · FAISS + SentenceTransformers for semantic matching |
-| **[Multimodal Multi-Agent Image Editing Pipeline](https://github.com/Lakshmibharathy11/Multimodal-RAG-System-for-PDF-Q-A)** | 4-agent LangGraph workflow (vision understanding → prompt refinement → generation → critique) that edits images and retries when its own evaluation isn't satisfied | 12/12 runs completed · avg rubric score 4.03/5 · CLIP image-similarity 0.938 |
-| **[Bay Area Job Monitor](https://github.com/Lakshmibharathy11/job-search-assistant)** | Automated pipeline scanning startup job boards for relevant new-grad roles, with scam detection and dedup logic | Diagnosed and fixed a scheduling bug causing ~500 wasted runs/week, cut to 4/week · GitHub Actions CI |
-| **[Distributed User Management System](https://github.com/Lakshmibharathy11/Distributed-User-Management-System---Node.js-React-MySQL-Docker-AWS-ECS)** | Full-stack CRUD web app with API validation, deployed as a containerized service | Node.js · React · MySQL · Docker · AWS ECS |
+| **[Law Enforcement Data ETL Pipeline](https://github.com/Lakshmibharathy11/Law_Enforcement_Analytics)** | Solo-built ELT pipeline: a daily Airflow DAG loads police dispatch records into Snowflake, and dbt models rank districts by response time | Airflow + dbt + Snowflake, containerized with Docker Compose, with dbt data tests |
+| **[Tesla Stock Sentiment Pipeline](https://github.com/Lakshmibharathy11/Tesla_stock_sentiment_analysis)** *(group project, DATA 226)* | Combines stock prices with tweet sentiment in an ELT pipeline | R² = 0.916 · my part: VADER sentiment, Snowflake ELT, SQL regression, Airflow, dbt |
+| **[Developer Salary Prediction](https://github.com/Lakshmibharathy11/Salary-Prediction)** *(DATA 230)* | Predicts developer pay from Stack Overflow survey data (2020–2024) | R² = 0.62 · RMSE ~$31K · Power BI prediction dashboard |
+
+---
+
+## Applied AI & Engineering
+
+| Project | What it does | Result |
+|---|---|---|
+| **[AI Customer Support Triage Agent](https://github.com/Lakshmibharathy11/AI-Customer-Support-Triage-Agent)** | LangGraph agent that classifies tickets, retrieves from a knowledge base (FAISS), drafts and self-evaluates answers, with a human approval gate for low-faithfulness responses | Faithfulness 0.81 · relevance 0.94 (LLM-as-judge) · $0.00139 per ticket across 45 tickets |
+| **[Bay Area Job Monitor](https://github.com/Lakshmibharathy11/job-search-assistant)** | GitHub Actions pipeline that pulls new roles from job APIs, filters and scores them, flags likely scam postings, and sends email and WhatsApp digests | Found and fixed a disabled scheduling guard, cutting runs from ~500/week to 4/week |
+| **[Kayak-Style Travel Booking Platform](https://github.com/Lakshmibharathy11/Kayak_style_full_stack_development)** *(team project, DATA 236)* | Full-stack booking system: React/TypeScript frontend, 8 FastAPI microservices, Kafka event streaming | My parts: booking module, billing middleware, Kafka booking topics, MySQL data, concierge agent |
+| **[Multimodal Multi-Agent Image Editing Pipeline](https://github.com/Lakshmibharathy11/Multimodal-RAG-System-for-PDF-Q-A)** | LangGraph workflow (vision understanding → prompt refinement → editing → critique) that retries when its own evaluation isn't satisfied | 12/12 runs completed · avg rubric score 4.03/5 · CLIP image similarity 0.938 |
+| **[Plate Planner API](https://github.com/Lakshmibharathy11/plate-planner-api-main)** | FastAPI service on a Neo4j graph with semantic embeddings for recipe recommendations and ingredient substitutions | Dockerized · FAISS + SentenceTransformers |
 
 ---
 
 ## Tech Stack
 
-**Statistics & Causal Inference**
+**Experimentation & Causal Inference**
+![AB](https://img.shields.io/badge/A%2FB_Testing-4B0082?style=flat-square)
+![Causal](https://img.shields.io/badge/Causal_Inference-4B0082?style=flat-square)
+![Uplift](https://img.shields.io/badge/Uplift_Modeling-4B0082?style=flat-square)
 ![Bayesian](https://img.shields.io/badge/Bayesian_Inference-4B0082?style=flat-square)
 ![MCMC](https://img.shields.io/badge/MCMC-4B0082?style=flat-square)
-![Causal](https://img.shields.io/badge/Causal_Inference-4B0082?style=flat-square)
-![AB](https://img.shields.io/badge/A/B_Testing-4B0082?style=flat-square)
-![Uplift](https://img.shields.io/badge/Uplift_Modeling-4B0082?style=flat-square)
 
 **Languages & ML**
+![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat-square)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=postgresql&logoColor=white)
+![pandas](https://img.shields.io/badge/pandas-150458?style=flat-square&logo=pandas&logoColor=white)
 ![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white)
+![Statsmodels](https://img.shields.io/badge/Statsmodels-555555?style=flat-square)
 ![XGBoost](https://img.shields.io/badge/XGBoost-337AB7?style=flat-square)
 ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
-![Statsmodels](https://img.shields.io/badge/Statsmodels-white?style=flat-square)
 
 **Data Engineering & Cloud**
-![Airflow](https://img.shields.io/badge/Airflow-017CEE?style=flat-square&logo=apacheairflow&logoColor=white)
 ![Snowflake](https://img.shields.io/badge/Snowflake-29B5E8?style=flat-square&logo=snowflake&logoColor=white)
 ![dbt](https://img.shields.io/badge/dbt-FF694B?style=flat-square&logo=dbt&logoColor=white)
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonaws&logoColor=white)
+![Airflow](https://img.shields.io/badge/Airflow-017CEE?style=flat-square&logo=apacheairflow&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![AWS](https://img.shields.io/badge/AWS_%28S3%2C_EC2%2C_Athena%2C_Bedrock%29-232F3E?style=flat-square&logo=amazonaws&logoColor=white)
 
-**Production & APIs**
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
-![Neo4j](https://img.shields.io/badge/Neo4j-008CC1?style=flat-square&logo=neo4j&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white)
-![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
+**BI & Visualization**
+![Looker](https://img.shields.io/badge/Looker_Studio-4285F4?style=flat-square&logo=google&logoColor=white)
+![Tableau](https://img.shields.io/badge/Tableau-E97627?style=flat-square&logo=tableau&logoColor=white)
+![PowerBI](https://img.shields.io/badge/Power_BI-F2C811?style=flat-square&logo=powerbi&logoColor=black)
+![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white)
+![GA](https://img.shields.io/badge/Google_Analytics-E37400?style=flat-square&logo=googleanalytics&logoColor=white)
 
-**Applied AI Tooling**
+**Applied AI**
 ![LangGraph](https://img.shields.io/badge/LangGraph-1C3C3C?style=flat-square)
 ![RAG](https://img.shields.io/badge/RAG-1C3C3C?style=flat-square)
-![Ragas](https://img.shields.io/badge/Ragas-4B0082?style=flat-square)
-
-**Visualization & BI**
-![PowerBI](https://img.shields.io/badge/Power_BI-F2C811?style=flat-square&logo=powerbi&logoColor=black)
-![Looker](https://img.shields.io/badge/Looker_Studio-4285F4?style=flat-square&logo=google&logoColor=white)
-![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white)
+![LLMEval](https://img.shields.io/badge/LLM_Evaluation-1C3C3C?style=flat-square)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
 
 ---
 
-## Education
-
-**M.S. Applied Data Intelligence** — San José State University *(May 2026)*
-Bayesian Inference · Causal Inference · Machine Learning · Big Data Analytics
-
-**B.E. Electronics & Communication Engineering** — Saranathan College of Engineering, India *(May 2014)*
-
 ## Experience
 
-**Digital Marketing Specialist** — RepuNEXT, Chennai *(Jun 2021 – Dec 2022)*
-Analytics and automated reporting across client accounts using Google Analytics and SEMrush · grew organic traffic 25% · built reporting workflows that improved campaign ROI 15%
+**Digital Marketing Specialist** · RepuNEXT, Chennai *(Jun 2021 – Dec 2022)*
+Analytics, SEO, and paid search for four client accounts · diagnosed funnel drop-off with Google Analytics and SEMrush, contributing to a 25% increase in organic traffic · prioritized website changes through funnel analysis, improving campaign ROI by 15%
+
+**Marketing Analyst** · Web Digital Mantra, Bangalore *(Aug 2020 – Jan 2021)*
+Monthly website analytics and user-metrics reports and dashboards for five clients, presented to client stakeholders
+
+## Education
+
+**M.S. Applied Data Intelligence** · San José State University *(May 2026)*
+
+**B.E. Electronics & Communication Engineering** · Saranathan College of Engineering, India *(May 2014)*
 
 ---
 
 <div align="center">
 
-**Seeking Data Scientist, Marketing/Growth Analytics, or Analytics Engineering roles in the Bay Area**
+**Open to Data Analyst, Product Analyst, and Associate Data Scientist roles in the Bay Area or remote**
 
-[Portfolio](https://lakshmibharathy11.github.io) · [LinkedIn](https://www.linkedin.com/in/lakshmi-bharathy-kumar/) · [Email](mailto:lakshmibharathyk@gmail.com)
+[Portfolio](https://lakshmibharathy11.github.io) · [LinkedIn](https://www.linkedin.com/in/lakshmibharathy-kumar) · [Email](mailto:lakshmibharathy.kumar@gmail.com)
 
 </div>
