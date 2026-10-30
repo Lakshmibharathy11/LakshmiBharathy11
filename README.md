@@ -2,9 +2,9 @@
 
 # Lakshmi Bharathy Kumar
 
-**Data & Product Analyst · Associate Data Scientist**
+**Associate Data Scientist · Marketing & Product Analytics**
 
-Turning User Data into Business ROI · A/B Testing | Data & Product Analytics | Causal ML
+Turning User Data into Business ROI · Machine Learning & AI | A/B Testing | Causal ML
 
 M.S. Applied Data Intelligence, San José State University (May 2026) · San Jose, CA · Bay Area & Remote
 Authorized to work in the U.S. without sponsorship
@@ -126,7 +126,7 @@ Monthly website analytics and user-metrics reports and dashboards for five clien
 
 <div align="center">
 
-**Open to Data Analyst, Product Analyst, and Associate Data Scientist roles in the Bay Area or remote**
+**Open to Associate Data Scientist, Data Analyst, and Product Analyst roles in the Bay Area or remote**
 
 [Portfolio](https://lakshmibharathy11.github.io) · [LinkedIn](https://www.linkedin.com/in/lakshmibharathy-kumar) · [Email](mailto:lakshmibharathy.kumar@gmail.com)
 
