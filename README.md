@@ -2,11 +2,11 @@
 
 # Lakshmi Bharathy Kumar
 
-**Associate Data Scientist · Marketing & Product Analytics**
+**Data & Product Analyst · Marketing Analytics & Applied Data Science**
 
-Turning User Data into Business ROI · Machine Learning & AI | A/B Testing | Causal ML
+Turning User Data into Business Decisions · SQL & Python | A/B Testing | BI Dashboards | Causal ML
 
-M.S. Applied Data Intelligence, San José State University (May 2026) · San Jose, CA · Bay Area & Remote
+M.S. Applied Data Intelligence, San José State University (May 2026) · San Jose, CA · Bay Area & Remote  
 Authorized to work in the U.S. without sponsorship
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=googlechrome&logoColor=white)](https://lakshmibharathy11.github.io)
@@ -19,9 +19,9 @@ Authorized to work in the U.S. without sponsorship
 
 ## About
 
-I use SQL, Python, experimentation, and causal ML to answer the question behind the dashboard: **what actually drove the result, and what should we do next?**
+I turn user, funnel, and campaign data into clear business decisions. Combining SQL, BI dashboards, experimentation, and applied data science, I answer the question behind the metric: **what actually drove the result, and what should we do next?**
 
-My foundation is two years of hands-on marketing and web analytics for client businesses, where I diagnosed funnel drop-off, defined KPIs, and reported results to founders and managing directors. My M.S. in Applied Data Intelligence added the rigor to test changes properly, measure true incrementality, and prioritize the customers worth keeping. I also build the pipelines and tools that make that analysis repeatable.
+My foundation is 2+ years of hands-on marketing and web analytics for client businesses, where I diagnosed funnel drop-off, defined KPIs, ran Google Ads A/B tests, and reported results to founders and managing directors. My M.S. in Applied Data Intelligence added the rigor to test changes properly, measure true incrementality, and prioritize high-value customers—along with the data pipelines and tools that make that analysis repeatable.
 
 ---
 
@@ -32,8 +32,8 @@ My foundation is two years of hands-on marketing and web analytics for client bu
 | Project | Business question | Result |
 |---|---|---|
 | **[Weekly Business Review (WBR) AI Agent](https://github.com/Lakshmibharathy11/team-s04-wbr-agent-mirror)** 🏆 *AWS Agentic AI Hackathon Finalist* | Why did this week's e-commerce metrics move? An analyst agent investigates metric changes with SQL query tools and robust z-score anomaly detection; a verifier agent checks every claim before the memo reaches a reader | **Top 5 of 12** teams, presented live at AWS Community Day Bay Area · 283 automated tests · 13/13 queries match between DuckDB and AWS Athena |
+| **[Bayesian Marketing Mix Model & Budget Optimizer](https://github.com/Lakshmibharathy11/Marketing-Mix-Modeling-for-Multichannel-Budget-Allocation)** | Which channels actually drive revenue, and how should a fixed budget be split? Built with Google Meridian on its simulated demo dataset (156 weeks, 5 paid channels) | **$7.7M** reallocated at the same $219.5M budget · **+$1.0M (+0.35%)** projected media-driven revenue · 4.4% MAPE · 5-page Looker Studio dashboard |
 | **[Causal Uplift & Incrementality Platform](https://github.com/Lakshmibharathy11/Causal-Uplift-Budget-Optimizer)** | Which users convert *because* of an ad, versus users who would have converted anyway? Uplift models on the Criteo dataset (13.9M users), deployed as a Streamlit tool on AWS EC2 | **87.8%** of incremental conversions captured by targeting the top 30% of users · 13.2% of users identified as persuadables · Qini 0.726 |
-| **[Bayesian Marketing Mix Model & Budget Optimizer](https://github.com/Lakshmibharathy11/Marketing-Mix-Modeling-for-Multichannel-Budget-Allocation)** | Which channels actually drive revenue, and how should a fixed budget be split? Built with Google Meridian on its simulated demo dataset (156 weeks, 5 paid channels) | **$7.7M** reallocated at the same $219.5M budget · **+0.35%** projected media-driven revenue · 4.4% MAPE |
 | **[Customer Retention Priority Engine: RFM, CLV & Churn](https://github.com/Lakshmibharathy11/Retention-Priority-Dashboard-RFM-CLV-and-Churn-Risk)** | Which customers are worth the retention budget? Combines customer value and churn risk into one ranked list (Online Retail II, ~5,878 customers) | Top 50 customers (<1% of base) hold **£9.26M**, 24.7% of projected value · found and removed data leakage before finalizing the churn model |
 
 ---
@@ -70,14 +70,7 @@ My foundation is two years of hands-on marketing and web analytics for client bu
 
 ## Tech Stack
 
-**Experimentation & Causal Inference**
-![AB](https://img.shields.io/badge/A%2FB_Testing-4B0082?style=flat-square)
-![Causal](https://img.shields.io/badge/Causal_Inference-4B0082?style=flat-square)
-![Uplift](https://img.shields.io/badge/Uplift_Modeling-4B0082?style=flat-square)
-![Bayesian](https://img.shields.io/badge/Bayesian_Inference-4B0082?style=flat-square)
-![MCMC](https://img.shields.io/badge/MCMC-4B0082?style=flat-square)
-
-**Languages & ML**
+**SQL, Python & Core Analytics**
 ![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat-square)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![pandas](https://img.shields.io/badge/pandas-150458?style=flat-square&logo=pandas&logoColor=white)
@@ -86,19 +79,28 @@ My foundation is two years of hands-on marketing and web analytics for client bu
 ![XGBoost](https://img.shields.io/badge/XGBoost-337AB7?style=flat-square)
 ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
 
+**BI & Visualization**
+![Tableau](https://img.shields.io/badge/Tableau-E97627?style=flat-square&logo=tableau&logoColor=white)
+![Looker](https://img.shields.io/badge/Looker_Studio-4285F4?style=flat-square&logo=google&logoColor=white)
+![PowerBI](https://img.shields.io/badge/Power_BI-F2C811?style=flat-square&logo=powerbi&logoColor=black)
+![Excel](https://img.shields.io/badge/Excel-217346?style=flat-square&logo=microsoftexcel&logoColor=white)
+![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white)
+![GA](https://img.shields.io/badge/Google_Analytics-E37400?style=flat-square&logo=googleanalytics&logoColor=white)
+
+**Experimentation & Causal Inference**
+![AB](https://img.shields.io/badge/A%2FB_Testing-4B0082?style=flat-square)
+![Causal](https://img.shields.io/badge/Causal_Inference-4B0082?style=flat-square)
+![Uplift](https://img.shields.io/badge/Uplift_Modeling-4B0082?style=flat-square)
+![Bayesian](https://img.shields.io/badge/Bayesian_Inference-4B0082?style=flat-square)
+![MCMC](https://img.shields.io/badge/MCMC-4B0082?style=flat-square)
+
 **Data Engineering & Cloud**
 ![Snowflake](https://img.shields.io/badge/Snowflake-29B5E8?style=flat-square&logo=snowflake&logoColor=white)
+![DuckDB](https://img.shields.io/badge/DuckDB-FFF000?style=flat-square&logo=duckdb&logoColor=black)
 ![dbt](https://img.shields.io/badge/dbt-FF694B?style=flat-square&logo=dbt&logoColor=white)
 ![Airflow](https://img.shields.io/badge/Airflow-017CEE?style=flat-square&logo=apacheairflow&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
 ![AWS](https://img.shields.io/badge/AWS_%28S3%2C_EC2%2C_Athena%2C_Bedrock%29-232F3E?style=flat-square&logo=amazonaws&logoColor=white)
-
-**BI & Visualization**
-![Looker](https://img.shields.io/badge/Looker_Studio-4285F4?style=flat-square&logo=google&logoColor=white)
-![Tableau](https://img.shields.io/badge/Tableau-E97627?style=flat-square&logo=tableau&logoColor=white)
-![PowerBI](https://img.shields.io/badge/Power_BI-F2C811?style=flat-square&logo=powerbi&logoColor=black)
-![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white)
-![GA](https://img.shields.io/badge/Google_Analytics-E37400?style=flat-square&logo=googleanalytics&logoColor=white)
 
 **Applied AI**
 ![LangGraph](https://img.shields.io/badge/LangGraph-1C3C3C?style=flat-square)
@@ -110,10 +112,10 @@ My foundation is two years of hands-on marketing and web analytics for client bu
 
 ## Experience
 
-**Digital Marketing Specialist** · RepuNEXT, Chennai *(Jun 2021 – Dec 2022)*
+**Digital Marketing Specialist** · RepuNEXT, Chennai *(Jun 2021 – Dec 2022)*  
 Analytics, SEO, and paid search for four client accounts · diagnosed funnel drop-off with Google Analytics and SEMrush, contributing to a 25% increase in organic traffic · prioritized website changes through funnel analysis, improving campaign ROI by 15%
 
-**Marketing Analyst** · Web Digital Mantra, Bangalore *(Aug 2020 – Jan 2021)*
+**Marketing Analyst** · Web Digital Mantra, Bangalore *(Aug 2020 – Jan 2021)*  
 Monthly website analytics and user-metrics reports and dashboards for five clients, presented to client stakeholders
 
 ## Education
@@ -126,7 +128,7 @@ Monthly website analytics and user-metrics reports and dashboards for five clien
 
 <div align="center">
 
-**Open to Associate Data Scientist, Data Analyst, and Product Analyst roles in the Bay Area or remote**
+**Open to Data Analyst, Product Analyst, Marketing/Growth Analyst, and Decision Scientist roles in the Bay Area or remote**
 
 [Portfolio](https://lakshmibharathy11.github.io) · [LinkedIn](https://www.linkedin.com/in/lakshmibharathy-kumar) · [Email](mailto:lakshmibharathy.kumar@gmail.com)
 
